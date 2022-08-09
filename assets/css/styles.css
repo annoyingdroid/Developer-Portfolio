@@ -141,7 +141,7 @@ main * div a img{
     border: 5px solid #00000020;
     max-height: 100px;
     object-fit: cover;
-    width: 100%;
+    min-width: 100%;
 }
 
 main * div a label{ 
