@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+* {
+    font-family: Open Sans;
+    color: #C4DFAA;
+}
+
+html {
+    background-color: #232946;
+    font-size: 2vw;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #C4DFAA;
+}
+
+a:hover {
+    color: #9db388;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    color: #b8c1ec;
+    display: flex;
+}
+
+div {
+    display: flex;
+}
+
+.navbar *{
+    font-size: 5vw;
+}
+/*Navbar Formatting*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #232946;
+    border-bottom: 5px solid #fffffe;
+    margin: 0px;
+}
+.navbar h1 {
+    color: #fffffe;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #3e4773;
+    border-radius: 0px 10px 10px 0px;
+    font-size: 50px;
+}
+
+.navbar h1 .droid {
+    color:#C4DFAA;
+}
+
+.links {
+    list-style-type: none;
+    color: #C4DFAA;
+    font-family: Open Sans;
+    background-color: #3e4773;
+    text-align: right;
+}
+
+.links ul {
+    margin: 0px;
+    padding-right: 10px;
+}
+
+.links ul li {
+    display: inline-table;
+    margin: 5px
+}
+
+main {
+    margin-left: 10px;
+}
+
+main * div{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+main * div a {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 5px;
+}
+
+main * div a img:hover {
+    opacity: 75%;
+    background-color: #eebbc330;
+    transform: scale(.99);
+}
+
+main * div a:first-child {
+    width: 100%;
+}
+
+main * div a:not(:first-child) {
+    width: 50%;
+    flex-wrap: wrap;
+}
+
+main * div a img{
+    color:  #cccccc;
+    border: 5px solid #00000020;
+    max-height: 100px;
+    object-fit: cover;
+    width: 100%;
+}
+
+main section h2{
+    margin-left: 10px;
+    margin-top: 0px;
+    float: left;
+    width: 15%;
+}
+
+.fa {
+    display:flex;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;  
+  }
+
+  /* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-linkedin {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-github {
+    background: #55ACEE;
+    color: white;
+}
+
+footer {
+    padding: 30px;
+    clear: both;
+    text-align: center;
+}
+
+footer * {
+    margin: 0;
+}
