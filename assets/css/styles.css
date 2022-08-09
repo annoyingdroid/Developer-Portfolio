@@ -32,7 +32,7 @@ label {
 }
 
 img {
-    max-width: 100%;
+    width: 100%;
 }
 
 img:hover {
@@ -125,6 +125,7 @@ main * div a {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    flex-shrink: 2;
 }
 
 main * div a:first-child {
@@ -182,3 +183,17 @@ footer * {
     margin: 0;
 }
 
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    .navbar { font-size: 3vw; }
+    main { font-size:2vw;}  
+    main * { font-size: 3vw;}
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    .navbar { font-size:3vw; }
+    main { font-size: 3vw;} 
+    main * { font-size: 3vw;}
+    main #projects div a { flex-shrink: 3; }
+}
