@@ -1,13 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Ubuntu");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+/* General formatting */
 * {
     font-family: Open Sans;
-    color: #C4DFAA;
+    color: #eebbc3;
 }
 
 html {
     background-color: #232946;
-    font-size: 2vw;
 }
 
 body {
@@ -17,62 +18,90 @@ body {
 
 a {
     text-decoration: none;
-    color: #C4DFAA;
+    color: #eebbc3;
 }
 
-a:hover {
-    color: #9db388;
+a:hover{
+    color: #eebbc370;
+}
+
+label {
+    font-family: Open Sans;
+    font-size: 15px;
+    vertical-align: middle;
 }
 
 img {
     max-width: 100%;
 }
 
+img:hover {
+    opacity: 75%;
+    background-color: #eebbc370;
+    transform: scale(.99);
+}
+
 p {
     color: #b8c1ec;
     display: flex;
+    justify-content: center;
 }
 
 div {
     display: flex;
 }
 
-.navbar *{
-    font-size: 5vw;
-}
-/*Navbar Formatting*/
+/*Navbar formatting*/
 .navbar {
     display: flex;
     justify-content: space-between;
     background-color: #232946;
-    border-bottom: 5px solid #fffffe;
-    margin: 0px;
+    border-bottom: 5px solid #eebbc3;
+    font-size: 1rem;
 }
 .navbar h1 {
+    display: flex;
     color: #fffffe;
     padding: 15px;
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: #3e4773;
     border-radius: 0px 10px 10px 0px;
-    font-size: 50px;
+}
+
+.navbar h2 {
+    display: absolute;
+    color: #fffffe;
+    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .navbar h1 .droid {
-    color:#C4DFAA;
+    color:#eebbc3;
 }
 
+main section h2{
+    margin-left: 10px;
+    margin-top: 0px;
+    float: left;
+    width: 15%;
+}
+
+/* Link formatting */
 .links {
     list-style-type: none;
-    color: #C4DFAA;
+    color: #eebbc3;
     font-family: Open Sans;
     background-color: #3e4773;
-    text-align: right;
+    text-align: left;
+    margin-right: 0px;
+    font-size: 1rem;
 }
 
 .links ul {
     margin: 0px;
-    padding-right: 10px;
+    padding: 5px;
 }
 
 .links ul li {
@@ -80,7 +109,8 @@ div {
     margin: 5px
 }
 
-main {
+/* Main content formatting */
+main section {
     margin-left: 10px;
 }
 
@@ -88,19 +118,13 @@ main * div{
     display: flex;
     flex-wrap: wrap;
     margin: 20px;
+    font-size: 1rem;
 }
 
 main * div a {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    padding: 5px;
-}
-
-main * div a img:hover {
-    opacity: 75%;
-    background-color: #eebbc330;
-    transform: scale(.99);
 }
 
 main * div a:first-child {
@@ -120,39 +144,34 @@ main * div a img{
     width: 100%;
 }
 
-main section h2{
-    margin-left: 10px;
-    margin-top: 0px;
-    float: left;
-    width: 15%;
+main * div a label{ 
+    position:absolute;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    background-color: #00000075;
+    border-radius: 0px 0px 10px;
+}
+
+/* Socials formatting */
+main #socials ul{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    list-style-type: none;
+    padding-left: 0px;
+}
+main #socials ul li{
+    align-content: center;
+    margin-right: 10px;
 }
 
 .fa {
     display:flex;
-    font-size: 30px;
     text-align: center;
-    text-decoration: none;
-    border-radius: 50%;  
   }
 
-  /* Add a hover effect if you want */
-.fa:hover {
-    opacity: 0.7;
-}
-/* Set a specific color for each brand */
-
-/* Facebook */
-.fa-linkedin {
-    background: #3B5998;
-    color: white;
-}
-
-/* Twitter */
-.fa-github {
-    background: #55ACEE;
-    color: white;
-}
-
+  /* Begin footer formatting */
 footer {
     padding: 30px;
     clear: both;
@@ -162,3 +181,4 @@ footer {
 footer * {
     margin: 0;
 }
+
