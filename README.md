@@ -7,3 +7,5 @@ This is a webpage built as a POC of a developer portfolio. It is used to showcas
 
 ## Tools Used
 * VSCode IDE
+* Less than 8 hours of sleep
+* Trader Joe's Microwave Meals
