@@ -5,7 +5,11 @@ This is a webpage built as a POC of a developer portfolio. It is used to showcas
 
 ![Developer Portfolio Site Screenshot](https://github.com/annoyingdroid/Developer-Portfolio/blob/master/DevPortfolio.png)
 
+## Deployment
+The page can be viewed live here: https://annoyingdroid.github.io/Developer-Portfolio/
+
 ## Tools Used
 * VSCode IDE
-* Less than 8 hours of sleep
+* Git
+* Less than 8 hours of sleep per night
 * Trader Joe's Microwave Meals
