@@ -167,6 +167,7 @@ main #socials ul{
 main #socials ul li{
     align-content: center;
     margin-right: 10px;
+    font-size: 40px;
 }
 
 /* Contact formatting */
@@ -180,6 +181,7 @@ main #contact ul{
 main #contact ul li{
     align-content: center;
     margin-right: 10px;
+    font-size: 25px;
 }
 
 .fa {
@@ -209,6 +211,8 @@ footer img {
     .navbar { font-size: 3vw; }
     main { font-size:2vw;}  
     main * { font-size: 3vw;}
+    main #socials ul li { font-size: 5vw }
+    main #contact ul li { font-size: 4vw }
 }
 
 /* Media Queries: Tabled Portrait */
