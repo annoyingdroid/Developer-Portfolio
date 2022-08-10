@@ -167,6 +167,19 @@ main #socials ul li{
     margin-right: 10px;
 }
 
+/* Socials formatting */
+main #contact ul{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    list-style-type: none;
+    padding-left: 0px;
+}
+main #contact ul li{
+    align-content: center;
+    margin-right: 10px;
+}
+
 .fa {
     display:flex;
     text-align: center;
