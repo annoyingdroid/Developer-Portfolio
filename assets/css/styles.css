@@ -35,7 +35,7 @@ img {
     width: 100%;
 }
 
-img:hover {
+img:not(footer):hover{
     opacity: 75%;
     background-color: #eebbc370;
     transform: scale(.99);
@@ -114,7 +114,7 @@ main section {
     margin-left: 10px;
 }
 
-main * div{
+main * div {
     display: flex;
     flex-wrap: wrap;
     margin: 20px;
@@ -154,6 +154,8 @@ main * div a label{
     border-radius: 0px 0px 10px;
 }
 
+/* About me formatting */
+
 /* Socials formatting */
 main #socials ul{
     display: flex;
@@ -167,7 +169,7 @@ main #socials ul li{
     margin-right: 10px;
 }
 
-/* Socials formatting */
+/* Contact formatting */
 main #contact ul{
     display: flex;
     flex-flow: row nowrap;
@@ -194,6 +196,12 @@ footer {
 
 footer * {
     margin: 0;
+}
+
+footer img {
+    height: 185px;
+    width: 150px;
+    margin: 10px;
 }
 
 /* Media Queries: Tablet Landscape */
